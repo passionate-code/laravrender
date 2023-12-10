@@ -222,7 +222,7 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.1",
+            "version": "2.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
