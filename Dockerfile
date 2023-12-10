@@ -1,4 +1,4 @@
-FROM bitnami/laravel
+FROM laravelfans/laravel
 
 COPY . .
 
