@@ -1,4 +1,4 @@
-FROM laravelfans/laravel
+FROM richarvey/nginx-php-fpm:1.9.1
 
 COPY . .
 
@@ -17,5 +17,4 @@ ENV LOG_CHANNEL stderr
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
-ENTRYPOINT ["/scripts/00-laravel-deploy.sh"]
-CMD ["run"]
+CMD ["/start.sh"]
