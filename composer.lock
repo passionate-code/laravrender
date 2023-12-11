@@ -222,6 +222,7 @@
         },
         {
             "name": "passionate-code/EmailValidator",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/passionate-code/EmailValidator.git"
