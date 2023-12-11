@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 echo "Running composer"
 composer global require hirak/prestissimo
-composer require laravel/framework:6.0.0
 composer install --no-dev --working-dir=/var/www/html
 
 #echo "generating application key..."
