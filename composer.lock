@@ -224,7 +224,7 @@
             "name": "passionate-code/EmailValidator",
             "source": {
                 "type": "git",
-                "url": "https://github.com/passionate-code/EmailValidator.git",
+                "url": "https://github.com/passionate-code/EmailValidator.git"
             },
             "dist": {
                 "type": "zip",
