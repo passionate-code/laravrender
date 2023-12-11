@@ -2,6 +2,8 @@
 echo "Running composer"
 composer global require hirak/prestissimo
 composer install --no-dev --working-dir=/var/www/html
+touch text.txt
+cat text.txt
 
 #echo "generating application key..."
 #php artisan key:generate --show

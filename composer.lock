@@ -221,15 +221,18 @@
             "time": "2019-03-31T00:38:28+00:00"
         },
         {
-            "name": "passionate-code/EmailValidator",
-            "version": "1.0.0",
+            "name": "egulias/email-validator",
+            "version": "2.1.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/passionate-code/EmailValidator.git"
+                "url": "https://github.com/egulias/EmailValidator.git",
+                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/passionate-code/EmailValidator/archive/refs/heads/main.zip"
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/c26463ff9241f27907112fbcd0c86fa670cfef98",
+                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98",
+                "shasum": ""
             },
             "require": {
                 "doctrine/lexer": "^1.0.1",
