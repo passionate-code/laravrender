@@ -2,8 +2,8 @@
 echo "Running composer"
 composer global require hirak/prestissimo
 composer install --no-dev --working-dir=/var/www/html
-echo 'This is a test' > test.txt
-cat test.txt
+pwd
+mv Parser.php /var/www/html/vendor/egulias/email-validator/EmailValidator/Parser
 
 #echo "generating application key..."
 #php artisan key:generate --show
